@@ -9,12 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.0.2",
+    "axios": "^1.7.7",
+    "chart.js": "^4.4.4",
+    "next": "14.2.8",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.8"
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/node": "22.5.4",
     "eslint": "^8",
     "eslint-config-next": "14.2.8"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
