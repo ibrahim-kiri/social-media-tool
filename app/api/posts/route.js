@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { addPost, getPosts } from '@/lib/firebase';
-import { schedulePost } from '@/utils/scheduler';
+import { addPost, getPosts } from "../../../lib/firebase";
+import { schedulePost } from "../../../utils/scheduler";
 
 
 /**

@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getPostById, updatePost, deletePost } from '@/lib/firebase';
+import { deletePost, getPostById, updatePost } from "../../../../lib/firebase";
 
 /**
  * GET /api/posts[id]

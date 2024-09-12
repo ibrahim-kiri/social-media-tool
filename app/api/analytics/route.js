@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getAnalytics } from "@/lib/instagram";
+import { getAnalytics } from "../../../lib/instagram";
 
 export async function GET(req) {
     const { searchParams } = new URL(req.url);
