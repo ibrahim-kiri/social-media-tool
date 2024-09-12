@@ -1,7 +1,7 @@
 import cron from 'node-cron';
-import { getPostById, updatePost } from "@/lib/firebase"
-import { getAnalytics, publishPost } from "@/lib/instagram";
 import { getSession } from "next-auth/react";
+import { getPostById, updatePost } from '../lib/firebase';
+import { getAnalytics, publishPost } from '../lib/instagram';
 
 
 
